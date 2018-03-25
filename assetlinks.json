@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.instantapp",
+    "sha256_cert_fingerprints":
+    ["C1:90:A1:B6:57:9A:73:00:5C:F8:2F:AA:DB:5C:47:C9:11:67:F7:4A:58:EE:28:EB:CC:C1:00:E2:9F:DD:6B:F4"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://bluepowerhouse.net"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.instantapp",
+    "sha256_cert_fingerprints":
+    ["C1:90:A1:B6:57:9A:73:00:5C:F8:2F:AA:DB:5C:47:C9:11:67:F7:4A:58:EE:28:EB:CC:C1:00:E2:9F:DD:6B:F4"]
+  }
+}]
